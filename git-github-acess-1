@@ -1,0 +1,183 @@
+github:
+using the draft, you have the draft and the new file for example so you have the submission. the interaction of the reviwer, so you'll be beack to the old file. so you have the old one, and you start created by linus torvalds// software is collaborated, // control the version, storage the cloud. work in team, better the code, recognixxe// GUI x CLI // CHANGE THE FOLDER, LIST THE FOLDES, create folder/file,// windows (cd, dir, mkdir, del/rmdir) unix(cd, Is, mkdir, rm -rf)  // tab is autocomplete, the recognixxe the folder of name of something/ 
+windows:
+>mkdir workspace 
+install git 
+master the branches principal but chnaged. when you use t// 
+check use the git decide CHANGED!!
+
+checkout windows-style 
+git 2.30 upper
+git credential manager (deprecated) --- don't use
+git credential maanger core (new one to use the new!!) git credential manager
+
+git 
+sha1, fundamental objects, distributed system, security, 
+encrypt create a groupd of character identify with 40 digits / it's a short term to represent the file: 
+1 echo "hello,world" | openss1 sha1
+2 > (output encript number)
+
+$ openss1 sha1 texto.txt
+
+sha secure hash algorithm is a group of functions hash criptographs
+
+objects fundamentals from git to version for the used:
+##blobs
+
+echo 'conteudo' | git hash-object --stdin
+>
+echo -e 'conteudo' | openss1 sha1
+>
+blobs\0
+Hello World
+
+echo 'conteudo ' | git hash-object --stdin
+>
+
+echo -e 'blob 9\0conteudo' | openss1 sha1
+>
+
+##trees (save the name of this file, is responsable for this structure for the file, can point the tree or blobs, the directory could point , using the object recursive)
+
+
+\0
+blob sa4d8s texting.txt
+
+tree 
+README  rakefile     lib
+blob     blob       tree (simplegit.rb)
+                    blob
+
+
+commits
+
+COMMIT:
+tree     s4a5sq1
+parent   a98acq1
+author    perkles 
+messager   "start"
+timestamp
+
+commit: create a timeline, how this commit was realixxed, show how the code was created without be clear the historyc of this commit. Just one author have a commit. 
+
+commit sixxe
+tree 92ec2
+author Scott
+committer Scott
+|
+tree sixxe
+blob 5bId3 README
+blob 911e7 LICENSE
+blob cba0a test. rb 
+|                                  |
+blob sixxe                              blob sixxe    blob sixxe
+testing library                           MIT License   requise 
+this libraru is used to test
+Ruby projects 
+
+git is a distributed and with security: 40 version distributed are confiables versions, if have some problem on github. 
+
+keys SSH and Tokens: password authentication is shutting down
+SSH key: this keys is a among two machines, the local machine with a trust another machine. one private public and one private. the machine will be set up without password. 
+go to githubssh gpg keys, 
+new ssh keys
+go to git bash //
+
+git bash  // to create the keys 
+$ ssh-ssh-keygen -t ed25519 -c joanapoppe@gmail.com
+enter 
+passphrase
+enter
+
+// now, we create the key and now we can navigate this folder to see this key
+$ cd/c/User/NameFolder/.ssh/
+$ lastid_ed25519 id_ed25519.pub
+$ cat id_ed25519.pub   //public key
+## it will show the public key
+## back to git hub, insert the name of the machine input
+
+on terminal
+$ ls 
+$ id_ed25519 id_ed25519.pub
+
+$ pwd 
+/c/Users/NameFolder/.ssh
+
+// 
+
+$ eval$(ssh-agent -s)
+Agent pid NUMBER 
+
+$ ls
+id_ed25519 id_ed25519.pub
+
+// now, we will give the key 
+
+$ ssh-add id_ed25519
+//private key, non public. 
+Enter passpharse for id_ed25519: 
+Identity added: id_ed25519 (joanapoppe@gmail.com)
+
+// 3 steps to understand this part. you cannot use the url, when you have the ssh you have to use this link. so we gonna use the ssh. 
+
+//come back to the terminal
+$ git clone URL SSH STEP 
+
+// the fingerprint will appear.
+
+$ ls 
+crr.github.io 
+
+//back to git hub will apper on the github page, ssh keys 
+
+//linux 
+
+$ ssh-keygen -t ed25519 -C joanapoppe@gmail.com
+Generating public/private ed25519 key pair 
+//apper the name of the key
+passphrase will appear 
+
+$ cd / home/crr/.ssh 
+
+id_ed25519 id_ed25519.pub 
+$ cat id_ed25519.pub
+
+//copy and go to github 
+//new ssh, create one with the content
+// back to terminal with the key ssh
+$ eval $(ssh-agent -s)
+Agent pid NUMBER
+$ ssh-add id_ed25519
+id_ed25519(joanapoppe@gmail.com)
+
+$
+
+// go to git hub create to validate, code click to ssh keys
+// terminal 
+
+$ git clone SSH KEY LINK 
+yes
+ls 
+//appear the repository
+
+//token for personal access: save in you machine, the git will receive this file. when you have a trust machine you can use this.
+
+// git hub developer settings
+// new perosnal access token, insert date fro expiration, mark repo, generate toke, insert a name of token 
+// it will appear the key of personal access tokens 
+// private repository, code. If you copy the SSH, when with the personal token no. Copyt HTTPS
+
+// terminal
+$ git clone LINK OF HTTPS
+
+// when appear the site from another persona. import to use the version 2.30 to upper 
+// connect github sign in 
+// insert personal access token
+// terminal will load the repository 
+// conclude the part of authentication. 
+
+
+
+
+
+
