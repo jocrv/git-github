@@ -1,0 +1,50 @@
+goals: solve conflicts. someone push the code to github, the code in github are equal the machine from another person. submity the code to github. You have to load the github code from another person, the new version from this code. Marge conflict, exists 2 changes in one line.
+$ ls 
+README.md recipes/ 
+$ git status 
+On branch master
+Changes not staged for commit 
+$ git add *
+ls 
+README.md recipes
+$ git status 
+on branch masterChanges to be commited
+$ git commit -m "Add recipe pixxa"
+$ git push origin master 
+//user name 
+//error because of merge conflict in README.md
+// pull (puxar)
+
+$ git pull origin master 
+
+// when in conflict merge  > (this symbol is using to markdown)
+//oepn the file README, when past to notes, this symbol will be transcrypt. You can delete on the notes, changes all the recipe, move the text to be transcrytp to the Markdown .
+// typore, save, back to git 
+
+$ git status
+
+//two files, both modified: README.md 
+
+$ git add * 
+$ git commit -m "resolve conflicts"
+$ git push origin master 
+
+// go to github, in this way we can do the edition on merge, add 
+// load a repository to local repository
+// python/cpython ; open with codespaces, open with github desktop
+// back to git bash, workspace
+$ ls
+books-recipes 
+$ git clone link-the-url-python
+
+$ ls 
+cpython/ books-recipes
+
+$ cd cpython/ 
+$ ls 
+$ ls -a 
+
+// find the folde .git 
+
+$ git remote -v 
+$ 
