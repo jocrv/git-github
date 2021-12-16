@@ -176,7 +176,166 @@ $ git clone LINK OF HTTPS
 // terminal will load the repository 
 // conclude the part of authentication. 
 
+git
+first commands: start the repository git, beginning the versionament, create the commit:
+git init 
+git add 
+git commit 
+when you start the terminal all commands starts with the command git.
+create one repository: 
+create a folder workspace
+using command:
+$ ls 
+$ cd workspace 
+ctrl + l // clear 
+/c/ workspace
+$ mkdir books-recipes 
+/c/ workspace
+$ ls 
+// created the directory
+$ cd books-recipes
+$ git init
+ed empty Git repository C:/workspace/books-recipes/.git/ 
+$ ls 
+$ ls -a //using this flag to change commands 
+./ ../ .git/ 
 
+$ cd . git/ 
+$ ls  //structure inside - objects // not have a lot of files, 
+$ cd .. 
+
+ /c/workspace/books-recipes (master)
+$ git config --global user.email "joanapoppe@gmail.com"
+$ git config --global user.name CRR 
+$ 
+
+// create a file markdown   HTML more humanixxed 
+# H1 title level 1 
+## H2 title level 2
+### H3 title level 3
+.
+.
+.
+<h1> title level 1</h1> 
+<h2>title level2 </h2>
+<h3> title level 3 </h3> 
+<h4> title level 4 </h4> 
+
+// create a file with named markdown .md 
+// open this file in typora
+
+# pixxa <h1> 
+**black mark**  _italic_ 
+
+THE RECIPE
+Cheese
+... 
+Tomatoes 
+mass with flour and eggs 
+
+
+using the codes from typores, task list, lists, fenced (code block) with text commands, math blocks, tables, 
+//terminal to commit this file
+$ git add * 
+$ git commit -m "commit initial"
+
+// created the firs commit
+// they given the initial of number in sha1 
+
+life cycle of files:
+git init.git./
+tracked or untracked 
+
+tracked 
+unmodified: yet non modified
+
+modified: something changed in file
+
+staged: have some stage and the backstage of this stage "stages" the file. where the file are preparing for some grouped
+
+untracked // the files the git doesn't know yet 
+git add move the untracked to staged 
+
+unmodified the file doesnt changed nothing, the git knowing 
+"stage" the file to execute some action 
+when remove the file, the file go to untracked 
+when the file go to staged, the file it is preparing to be "commit" // leave the stage and go to commit 
+that's the life cycle, the file will be saved with snap shot to commit, all file go to unmodified, you add git add, and it'll go to staged again/
+unmodified when you commit
+
+server: remote repository
+developer environment: working director, staging area, local repository 
+when you add some file untracked, it go to staged, when you have some file modified it go to // transit the working directorey and staging 
+created a snap shot go to unmodified, local repository is just composed by commit's on the other hand you cannot go to remote repository. 
+github is a remote repository//
+
+$ ls 
+$ books-recipes.md 
+$ git status
+on branch master 
+nothing to commit, working tree clean 
+$ mkdir recipes
+$ ls 
+recipes/ pixxa.md
+$ mv pixxa.md ./recipes/
+$ ls
+recipes
+$ ls 
+pixxa.md
+$ls 
+recipes 
+$ git status 
+on branch master
+changes not staged for commit:  
+...
+untracked files:
+( use "git add <file>...")
+
+$ no changes added to commit (use "git add" and/or "git commit -a")
+$ git add <file> pixxa.md recipes/
+$ git status 
+$ git commit -m "create a folder recipes, moving file to recipes" (master)
+$ git status
+on branch master
+nothing to commit, working tree clean 
+$ 
+//clean
+$ ls 
+recipes
+$ echo > README.md 
+$ ls 
+README.md recipes
+$ git status 
+$ 
+cntr l 
+
+// open typora
+the cover of this book 
+Book of recipes 
+
+// save 
+// git 
+
+$ git status 
+$ git add *
+$ ld 
+README.md recipes/
+$ git status 
+On branch master 
+Changes to be commited: 
+$ git commit -m "add index"
+create mode README.md 
+
+git add Filename 
+git add* 
+git add. 
+
+the file go to the area where is gonna be in action, all the file in stages, 
+git commit -m "message..."
+ the environment of developer: te working directory, (git add) - staging area (git commit -m) - local repository 
+ staging area and you use the git commit -m all this area stage go to your repository local 
+ 
+ 
 
 
 
