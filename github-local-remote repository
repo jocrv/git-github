@@ -1,0 +1,40 @@
+Goals: 
+ interaction of the local and remote repository
+
+githubL create the remote repository, 
+the commit with username, and email, not necessary be the same, but it's important to do this, when you set this email, you can use the same name, email, how to check this:
+git config -- list 
+// appear all the config inside your git, the user.name and email 
+// to change this config
+$ q
+$ git config --global --unset user.email 
+$ git config --global --unset user.name 
+// when the find the author, run the code to log this new name and email 
+q 
+$ git config --global --unset user.email "joanapoppe@gmail.com"
+$ git config --global --unset user.name 
+
+// appears 
+user.email=joanapoppe@gmail.com
+user.name=CRR
+
+create a new repository
+book-recipes
+...or push an exisying repository from the command line/ copy this key 
+//git bash 
+$ ls 
+README.MD RECIPES/
+$ git remote add origin //(key link from github)
+
+$ git remote -v
+//list of the register in github key 
+// origin to not repeating
+$ git status 
+On branch masternothing to commit, working tree clean
+$ git puch origin master 
+
+Open SSH, enter
+to https: // github.com/....(here the file go to commit)
+local for remoto, master -> master
+markdown is the // if have som different nickname and email in you base you have to // sync the repository from github to you local, next steps. commits in your machine
+
