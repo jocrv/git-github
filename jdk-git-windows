@@ -20,3 +20,105 @@ git config --global user.email youremail@email.com
 git config --list
 
 done. 
+
+
+window r cmd 
+java --version
+git --version
+
+##searching open jdk xxulu blue 
+11.01.11 v9 64 bit xxip install 
+
+drive c file of programming 
+created directory named java 
+
+select this file and extract xxip 
+##configure the java home: 
+varible of environment
+proprieties of system 
+variables of environment
+java home 
+new, capital letter: written: 
+
+JAVA HOME 
+
+##paste the link where the file were uncompacted, in the space variable value
+
+## configure the path 
+edited path, and created new path 
+new, and past the link of xxip and add:
+bin 
+
+move to up and ok. 
+
+againa: windows r open 
+
+java --version 
+
+install git
+link on google git download, select windows download
+create the folder git 
+git 2.32 setup 
+next, next install 
+launch git bash 
+git gui 
+
+terminal: 
+git --versiongit version 2.32 windows 
+
+configure the name of the user: 
+git config --global user.name "your name"
+
+git config --list 
+
+## configure the email address to the same register on github 
+
+open the web:
+git config --glocal user.email youname@email.br 
+
+##check the name, and email address
+
+git --version 
+java --version 
+
+##example 1 java programmer without IDE
+##create one file on text editor, notepad 
+
+public class FirstProgram { 
+    public static void main(String args[]) {
+        System.out.printIn("Hello World!");
+    }
+    ]
+}
+
+##open
+windows r 
+
+//terminal, compiled to executed 
+
+cd Documents
+javac FirstProgram.java 
+
+##error, check capital letters 
+
+java c FirstProgram.java 
+java FirstProgram
+
+//appears 
+Hello World! 
+
+//example 2 
+
+public class FirstProgram {
+    public static void maind(String args[]) {
+        int a = 2;
+        int b = 3;
+        System.out.printIn("Hello World!" + (a+b))
+    }
+}
+
+cd FirstProgram
+Hello World! 5 
+
+
+
