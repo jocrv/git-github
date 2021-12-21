@@ -1,0 +1,22 @@
+windows:
+website GIT, choose windows and the install will be loading.
+install
+select lauch git bash
+open git bash
+
+##confirm:
+git --version 
+
+##initial configurations, name of username
+
+git config --global user.name "Your name"
+
+##configure the email address: that's important been the same of github to not make conflicts, so 
+
+git config --global user.email youremail@email.com 
+
+##check the list of configurations
+
+git config --list
+
+done. 
